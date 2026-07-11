@@ -1,0 +1,21 @@
+---
+title: "News"
+layout: textlay
+excerpt: "Tongji Flying Fish Research Lab at SRIAS, Tongji University."
+sitemap: false
+permalink: /allnews.html
+---
+
+<h1>News</h1>
+
+<div class="news-timeline" style="margin-top: 30px;">
+  {% for article in site.data.news %}
+  <div class="news-timeline-item">
+    <div class="news-timeline-badge"></div>
+    <div class="news-timeline-content">
+      <span class="news-date" style="font-size: 0.95em;">{{ article.date }}</span>
+      <div class="news-headline" style="font-size: 1.05em; margin-top: 5px;">{{ article.headline | markdownify }}</div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

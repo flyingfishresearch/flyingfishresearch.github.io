@@ -1,0 +1,720 @@
+---
+---
+    
+@import 
+	"bootstrap",
+	"variables",
+	"publications",
+	"themes";
+
+img { margin-bottom: 24px; 
+     margin-top: 17px; 
+    border-radius:2%;
+}
+
+
+body {
+	padding-top: 70px;
+	font-family: 'Ubuntu', 'Segoe UI', system-ui, 'SimSun', 'Songti SC', STSong, sans-serif;
+	color: #2b303a;
+	background-color: #ffffff;
+	-webkit-font-smoothing: antialiased;
+	font-size: 18px;
+	line-height: 1.6;
+}
+
+figcaption {
+    text-align: right;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+
+
+/* Top navigation bar */
+
+
+p.byline {
+	text-align: center;
+	font-size: 18px;
+	line-height: 36px;
+	margin-top: -24px;
+	margin-bottom: 48px;
+}
+
+
+pubtit {
+	font-weight: bold;
+}
+
+firstp {
+}
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1300px; 
+}
+
+.main-container {
+  padding-top: 28px;
+}
+
+/* Home, News */
+#newsid p {
+	text-align: left;
+}
+
+#homeidtmp h1 {
+	text-align: center;
+}
+
+#newsid img {
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+/* Team & Publications */
+#gridid img { margin: 16px 22px 6px 0; border-radius:10%; box-shadow: 2px 2px 5px #888888 }
+#grid2id img { margin: 16px 22px 6px 0; border-radius:3%; box-shadow: 2px 2px 5px #888888 }
+#homeid img { margin: 0 0 0 0; border-radius:5%; box-shadow: 0px 0px 0px #888888 }
+#picid img { margin: 6px 3px 60px 6px; border-radius:1%; box-shadow: 2px 2px 5px #888888 }
+#gridid .row { margin-bottom: 24px; }
+#grid2id .row { margin-bottom: 24px; }
+
+
+
+/* Grid overrides */
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-5, .col-sm-6,
+.col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+/* Grid overrides */
+.col-sm-4 {
+	padding-left: 26px;
+	padding-right: 26px;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+/* Carusel */
+
+.carousel {
+    border-radius: 3px 3px 3px 3px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+.carousel .item {
+  height: 400px;
+}
+
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 400px;
+}
+
+
+/* Jekyll-embed-video*/
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Modern styling overrides */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ubuntu', 'Segoe UI', system-ui, 'SimSun', 'Songti SC', STSong, sans-serif;
+  font-weight: 600;
+  color: #1a1e26;
+  letter-spacing: -0.02em;
+}
+
+.navbar-default {
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: none;
+  border-bottom: 1px solid #eef1f6;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03);
+}
+
+.navbar-default .navbar-brand {
+  font-family: 'Ubuntu', 'Segoe UI', system-ui, 'SimSun', 'Songti SC', STSong, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: #1a1e26 !important;
+  font-size: 18px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #4a5568 !important;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 24px 15px;
+  transition: color 0.2s ease;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #0284c7 !important;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent !important;
+  color: #0284c7 !important;
+  font-weight: 600;
+}
+
+.carousel {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.carousel-indicators li {
+  border: 1px solid #ffffff;
+  background-color: rgba(255,255,255,0.4);
+}
+
+.carousel-indicators .active {
+  background-color: #ffffff;
+}
+
+.button.black {
+  background-color: #1a1e26;
+  border: 1px solid #1a1e26;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #ffffff;
+  transition: all 0.2s ease;
+}
+
+.button.black:hover {
+  background-color: #0284c7;
+  border-color: #0284c7;
+  box-shadow: 0 2px 8px rgba(0, 118, 223, 0.25);
+}
+
+/* University logos footer display */
+.university-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 65px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding: 20px 0;
+  border-top: 1px solid #f0f2f5;
+}
+
+.university-logos img {
+  height: 50px;
+  width: auto;
+  opacity: 1.0;
+  transition: all 0.3s ease;
+  margin: 0;
+}
+
+.university-logos img:hover {
+  transform: scale(1.05);
+}
+
+#newsid {
+  background-color: rgba(248, 250, 252, 0.7);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.01), 0 2px 4px -1px rgba(0, 0, 0, 0.01);
+}
+
+/* Custom Scrollbar for Avant-garde look */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f8fafc;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0284c7;
+}
+
+/* Modern Glassmorphism & Card Overrides for Team and Publications */
+#gridid .row:not(.bibliography .row), #grid2id .row {
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(241, 245, 249, 0.8);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.01);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 24px;
+}
+
+#gridid .row:not(.bibliography .row):hover, #grid2id .row:hover {
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 12px 20px -3px rgba(2, 132, 199, 0.06), 0 4px 6px -2px rgba(2, 132, 199, 0.03);
+  border-color: rgba(2, 132, 199, 0.2);
+}
+
+#gridid img:not(.no-hover), #grid2id img:not(.no-hover) {
+  border-radius: 14px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06) !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+#gridid img:not(.no-hover):hover, #grid2id img:not(.no-hover):hover {
+  transform: scale(1.03) rotate(0.5deg);
+  box-shadow: 0 10px 20px rgba(2, 132, 199, 0.12) !important;
+}
+
+
+
+/* Clean up borders and standard dividers */
+hr {
+  border-top: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+/* Navbar active indicator and style updates */
+.navbar-default .navbar-nav > li > a {
+  position: relative;
+}
+
+.navbar-default .navbar-nav > li > a::after {
+  content: '';
+  position: absolute;
+  bottom: 12px;
+  left: 15px;
+  right: 15px;
+  height: 2px;
+  background-color: #0284c7;
+  transform: scaleX(0);
+  transition: transform 0.25s ease;
+  border-radius: 2px;
+}
+
+.navbar-default .navbar-nav > li > a:hover::after {
+  transform: scaleX(1);
+}
+
+.navbar-default .navbar-nav > .active > a::after {
+  transform: scaleX(1);
+}
+
+/* --- Avant-garde Background, Footer, and Brand Logo Styles --- */
+
+
+#footer {
+  border: none !important;
+  background: transparent !important;
+  margin-top: 15px !important;
+  margin-bottom: 0 !important;
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+  border-top: 1px solid rgba(226, 232, 240, 0.8) !important;
+  box-shadow: none !important;
+}
+
+.panel-footer {
+  background: transparent !important;
+  border: none !important;
+  color: #64748b !important; /* Slate 500 */
+  font-size: 11px !important;
+  line-height: 1.4 !important;
+  padding: 0 !important;
+}
+
+.panel-footer p {
+  margin-bottom: 4px !important;
+}
+
+.panel-footer a {
+  color: #0284c7 !important;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.panel-footer a:hover {
+  color: #0369a1 !important;
+  text-decoration: underline;
+}
+
+.panel-footer .col-sm-4 {
+  margin-bottom: 5px !important;
+}
+
+.navbar-default .navbar-brand, .navbar-brand {
+  display: flex !important;
+  align-items: center !important;
+  height: 70px !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.navbar-brand img {
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.navbar-brand:hover img {
+  transform: scale(1.06) rotate(-2deg);
+}
+
+
+/* Modern News Timeline UI */
+.news-timeline {
+  position: relative;
+  padding-left: 20px;
+  margin-top: 15px;
+  border-left: 2px solid #e2e8f0;
+}
+
+.news-timeline-item {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.news-timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+.news-timeline-badge {
+  position: absolute;
+  left: -26px;
+  top: 4px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #0284c7;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 2px #e2e8f0;
+  transition: all 0.3s ease;
+}
+
+.news-timeline-item:hover .news-timeline-badge {
+  background: #0ea5e9;
+  transform: scale(1.2);
+}
+
+.news-timeline-content {
+  padding-left: 10px;
+}
+
+.news-date {
+  font-size: 0.85em;
+  font-weight: 700;
+  color: #64748b;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.news-headline {
+  font-size: 0.95em;
+  color: #334155;
+  line-height: 1.5;
+}
+
+.news-headline p {
+  margin-bottom: 8px;
+}
+.news-headline p:last-child {
+  margin-bottom: 0;
+}
+
+.news-headline img {
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.02);
+  margin-top: 8px;
+}
+
+/* News scroll container for homepage */
+.news-scroll-container {
+  max-height: 620px;
+  overflow-y: auto;
+  padding-left: 26px;
+  margin-left: -26px;
+  padding-right: 12px;
+}
+
+/* Tidy the News box: no extra top gap above the "News" heading, and a small
+   gap above the "... see all News" link so they don't touch the frame. */
+#newsid .well > h4:first-child {
+  margin-top: 0;
+}
+#newsid .well > h4:last-child {
+  margin-top: 14px;
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  /* Flexbox equal height layout for homepage side-by-side columns */
+  .main-container .row {
+    display: flex !important;
+    flex-flow: row wrap !important;
+    align-items: stretch !important;
+  }
+
+  /* Disable clearfix pseudo-elements in flex layout to avoid rendering empty flex items */
+  .main-container .row:before,
+  .main-container .row:after {
+    display: none !important;
+  }
+  
+  #homeid {
+    display: flex !important;
+    flex-direction: column !important;
+    height: auto !important;
+    align-self: stretch !important;
+  }
+
+  /* The NEWS column takes its height from the left column (the logos),
+     NOT from its own content. Its content is absolutely positioned so it
+     does not stretch the row; whatever exceeds the left column's bottom is
+     simply clipped and only shown on the "see all News" page. */
+  #newsid {
+    position: relative !important;
+    display: block !important;
+    align-self: stretch !important;
+  }
+
+  #newsid .well {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 18px 20px 16px 30px !important;
+    margin: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    overflow: hidden !important;
+  }
+
+  #newsid .news-scroll-container {
+    flex: 1 1 auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    overflow: hidden !important;
+  }
+}
+
+/* =============================================================
+ * Unified typography: the whole site uses only TWO font sizes.
+ *   - Body size  : 18px  (normal text, nav, footer, captions, etc.)
+ *   - Heading size: 26px (all h1–h6 / headings)
+ * !important is used so these win over Bootstrap defaults and the
+ * inline style="font-size:…" attributes sprinkled in the templates.
+ * Icon elements (font-awesome <i>, glyphicon <span>) are deliberately
+ * NOT targeted, so icons keep their own sizing.
+ * ============================================================= */
+
+/* --- Body size --- */
+body,
+p, p.byline, li, ol, ul, dl, dt, dd, table, td, th,
+a, small, .small, .lead, blockquote, figcaption, .caption,
+.navbar-default .navbar-brand, .navbar-brand, .navbar-brand span,
+.navbar-default .navbar-nav > li > a,
+.button, .button.black, .btn,
+.panel-footer, .panel-footer p, .panel-footer a, .panel-footer div,
+.news-date, .news-headline, .news-headline p {
+  font-size: 18px !important;
+}
+
+/* --- Heading size --- */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6,
+.publications h1, .publications h2, .publications h2 span {
+  font-size: 26px !important;
+}
+
+/* Keep heading classes on the Ubuntu/宋体 stack too */
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Ubuntu', 'Segoe UI', system-ui, 'SimSun', 'Songti SC', STSong, sans-serif;
+}
+
+/* =============================================================
+ * Heading-type text is displayed in ALL CAPS: page headings,
+ * the navbar brand (lab name), and the navbar menu links.
+ * (uppercasing is done in CSS so the underlying text / SEO stays
+ * normal-case; Chinese characters are unaffected.)
+ * ============================================================= */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6,
+.navbar-default .navbar-brand,
+.navbar-brand,
+.navbar-brand span,
+.navbar-default .navbar-nav > li > a {
+  text-transform: uppercase;
+}
+
+/* =============================================================
+ * Homepage affiliation logos: three rows.
+ *   Row 1 (Tongji, SRIAS)  – spread edge-to-edge
+ *   Row 2 (SKL AIS banner) – centered, with hover zoom + tooltip
+ *   Row 3 (CUHK, NUAA, BIT) – spread edge-to-edge
+ * ============================================================= */
+.logos-block {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-top: 24px;
+  border-top: 1px solid #f0f2f5;
+}
+
+.logos-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 0 20px;
+  margin-bottom: 34px;
+}
+
+.logos-row-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 34px;
+}
+
+.logos-row img,
+.logos-row-center img {
+  height: 50px;
+  width: auto;
+  margin: 0;
+  transition: transform 0.3s ease;
+}
+
+.logos-row-center img {
+  max-height: 55px;
+  height: auto;
+}
+
+.logos-row img:hover,
+.logos-row-center img:hover {
+  transform: scale(1.05);
+}
+
+/* =============================================================
+ * Colour unification + small component tweaks
+ * ============================================================= */
+
+/* All blue text uses the same blue as the footer "Jekyll" link (#0284c7).
+   Nav links / brand / footer keep their own !important colours. */
+a {
+  color: #0284c7;
+}
+a:hover,
+a:focus {
+  color: #0369a1;
+}
+
+/* Inline code chips (e.g. the email-subject examples on the Openings page)
+   rendered light-blue instead of Bootstrap's default red-on-pink. */
+code.highlighter-rouge,
+code.language-plaintext {
+  color: #0284c7 !important;
+  background-color: #e0f2fe !important;
+  border: 1px solid #bae6fd;
+}
+
+/* Team member names */
+#gridid h4 {
+  font-size: 22px !important;
+  text-transform: none !important;
+}
+
+/* No hover animation on any image (photos, logos, brand). */
+img:hover,
+.navbar-brand:hover img,
+#gridid img:not(.no-hover):hover,
+#grid2id img:not(.no-hover):hover,
+.logos-row img:hover,
+.logos-row-center img:hover,
+.university-logos img:hover {
+  transform: none !important;
+}
+
+/* A little breathing room after the small email / topic / education icons
+   (and their alignment placeholders) on the Team page. */
+#gridid i.fa,
+#gridid span[style*="width: 15px"] {
+  margin-right: 6px;
+}
+
+/* Research page video titles: keep normal (Title) case, not ALL CAPS */
+.video-title {
+  text-transform: none !important;
+}
+
+/* "Personal Website" buttons on the Team page: light-blue chip with
+   Jekyll-blue text, a little smaller than body text. */
+.button.black {
+  background-color: #e0f2fe !important;
+  border: 1px solid #bae6fd !important;
+  color: #0284c7 !important;
+  font-size: 15px !important;
+}
+.button.black:hover {
+  background-color: #bae6fd !important;
+  border-color: #7dd3fc !important;
+  color: #0369a1 !important;
+  box-shadow: none !important;
+}
+
+/* Navbar brand (lab name, top-left) at the same size as the nav links. */
+.navbar-default .navbar-brand,
+.navbar-brand,
+.navbar-brand span {
+  font-size: 18px !important;
+}
+
+/* Uniform frame (corner radius + shadow) on every News image, overriding
+   the assorted inline styles in the news data. */
+.news-headline img {
+  border-radius: 8px !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15) !important;
+}

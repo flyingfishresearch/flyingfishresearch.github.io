@@ -1,0 +1,121 @@
+- name: Ben M. Chen (陈本美)
+  photo: BMChen.jpg
+  info: Professor
+  email: bmchen@cuhk.edu.hk
+  website: http://www.mae.cuhk.edu.hk/~bmchen/
+  short_bio: Ben M. Chen is currently a Professor of Mechanical and Automation Engineering at the Chinese University of Hong Kong (CUHK). Before joining CUHK in 2018, he was a Provost's Chair Professor in the Department of Electrical and Computer Engineering at the National University of Singapore (NUS). He is an IEEE Fellow and a Fellow of Academy of Engineering, Singapore. He is also a Part-time Professor at Tongji University. His research interests are in unmanned systems and their applications.
+
+- name: Jie Chen (陈杰)
+  photo: jie_chen.png
+  info: Professor
+  website: https://www.tongji.edu.cn/info/1136/21221.htm
+  short_bio: Jie Chen is currently a Professor and the Secretary of the CPC Committee of Harbin Institute of Technology. He is an Academician of the Chinese Academy of Engineering, an IEEE Fellow, an IFAC Fellow, and an ACA Fellow. He serves as the Director of the State Key Laboratory of Autonomous Intelligent Systems, the Frontiers Science Center under the Ministry of Education, and the Shanghai Science Center for Autonomous Intelligent Systems. His research interests include control science and engineering, multi-objective optimization and control of complex systems, and multi-agent cooperative control. He previously served as the Vice President of Beijing Institute of Technology, the President of Tongji University, and the Vice Minister of the Ministry of Education of the PRC.
+
+- name: Bin He (何斌)
+  photo: bin_he.jpg
+  info: Professor
+  email: hebin@tongji.edu.cn
+  website: https://robot.tongji.edu.cn/info/1256/2083.htm
+  short_bio: Bin He is currently a Professor in the College of Electronic and Information Engineering, the Executive Director of the Shanghai Science Center for Autonomous Intelligent Systems, and the Deputy Director of the State Key Laboratory of Autonomous Intelligent Systems at Tongji University. He is a recipient of the National Science Fund for Distinguished Young Scholars and enjoys the Special Government Allowance of the State Council. His research interests include intelligent robotics, intelligent perception, digital twins, and physical AI. He has published over 100 papers in reputable international journals and received the National Science and Technology Progress Award (Second Class) as the primary investigator.
+
+- name: Yulong Ding (丁玉隆)
+  photo: yulong_ding.png
+  info: Assistant Professor
+  email: dingyulong@tongji.edu.cn
+  website: https://robot.tongji.edu.cn/info/1256/2269.htm
+  short_bio: Yulong Ding is an Assistant Professor in the Department of Control Science and Engineering and Shanghai Research Institute for Intelligent Autonomous Systems at Tongji University. He received his Ph.D. degree in Automation from Beijing Institute of Technology in 2020. His doctoral dissertation received the Wu Wenjun AI Outstanding Doctoral Dissertation Award. His research interests include human-machine collaboration and air-ground collaborative task planning for unmanned systems.
+
+- name: Yu Herng Tan (陈宇珩)
+  photo: yuheng_chen.jpg
+  info: Assistant Professor
+  email: yhtan@tongji.edu.cn
+  website: https://robot.tongji.edu.cn/info/1256/2808.htm
+  short_bio: Yu Herng Tan is an Assistant Professor at the Shanghai Research Institute for Intelligent Autonomous Systems, Tongji University. She received her M.Eng. in Aerospace Engineering from Imperial College London (2016) and her Ph.D. in Electrical and Computer Engineering from the National University of Singapore (2020) under the supervision of Prof. Ben M. Chen. She completed her postdoctoral research at Tsinghua University (2022-2025). Her research interests include cross-medium unmanned vehicles and intelligent UAV systems.
+
+- name: Biao Wang (王彪)
+  photo: biao_wang_v1.png
+  info: Associate Professor
+  email: wangbiao@nuaa.edu.cn
+  website: https://faculty.nuaa.edu.cn/wb4/zh_CN/index.htm
+  short_bio: Biao Wang is an Associate Professor in the College of Automation Engineering at Nanjing University of Aeronautics and Astronautics (NUAA). He received his Ph.D. degree in Navigation, Guidance, and Control from NUAA in 2004. He has been a visiting scholar at the Chinese University of Hong Kong (2001) and National University of Singapore (2009-2012). His research interests include unmanned aerial vehicle systems, flight control, and computer vision.
+
+- name: Lihua Dou (窦丽华)
+  photo: lihua_dou_v1.jpg
+  info: Professor
+  email: doulihua@bit.edu.cn
+  website: https://ac.bit.edu.cn/szdw/jsml/mssbyznxtyjs1/91a4638cf2634ad08798c44bc59db58c.htm
+  short_bio: Lihua Dou is a Professor and Ph.D. Advisor. She is a discipline leader in intelligent control and intelligent systems, and serves as the Director of a Beijing Key Laboratory. She is also a Part-time Professor at Tongji University. Her research interests include nonlinear control, image processing and target recognition in complex backgrounds, network control and security, command and control, and expert systems.
+
+- name: Xiangdan Zhao (赵祥丹)
+  photo: xiangdan_zhao_v2.jpg
+  info: Ph.D. Candidate (since September 2023)
+  email: zhaoxiangdan@tongji.edu.cn
+  topic: Hybrid aerial-aquatic vehicles, autonomous control
+  education:
+    - 2023.09 - Present, Ph.D. Candidate in Intelligent Science and Technology, Tongji University, Shanghai, China
+    - 2020.09 - 2023.06, M.Eng. in Control Engineering, Nanjing University of Aeronautics and Astronautics, Nanjing, China
+    - 2015.09 - 2019.06, B.Eng. in Automation, Nanjing Institute of Technology, Nanjing, China
+
+- name: Chenxiao Wang (王晨晓)
+  photo: chenxiao_wang_v1.jpg
+  info: Ph.D. Candidate (since September 2024)
+  email: chenxiaowang@tongji.edu.cn
+  topic: Underwater localization and mapping, sensor fusion, and autonomous aerial-aquatic vehicles
+  education:
+    - 2024.09 - Present, Ph.D. Candidate in Intelligent Science and Technology, Tongji University, Shanghai, China
+    - 2020.09 - 2024.06, B.Sc. in Applied Mathematics, Tongji University, Shanghai, China
+
+- name: Xinkun Wang (王歆坤)
+  photo: xinkun_wang_v1.jpg
+  info: Ph.D. Candidate (since September 2024)
+  email: xinkunwang@tongji.edu.cn
+  topic: Cross-domain unmanned systems, hybrid aerial-aquatic vehicles, modelling and control
+  education:
+    - 2024.09 - Present, Ph.D. Candidate in Intelligent Science and Technology, Tongji University, Shanghai, China
+    - 2020.09 - 2024.06, B.Sc. in Applied Mathematics, Tongji University, Shanghai, China
+
+- name: Shuchen Zhou (周书臣)
+  photo: shuchen_zhou_v2.jpg
+  info: Ph.D. Candidate (since September 2024)
+  email: shuchen_zhou@tongji.edu.cn
+  topic: Cross-domain unmanned systems, mission planning, and motion planning
+  education:
+    - 2024.09 - Present, Ph.D. Candidate in Intelligent Science and Technology, Tongji University, Shanghai, China
+    - 2020.09 - 2024.06, B.Eng. in Automation, Northeastern University, Qinhuangdao, China
+
+- name: Ze Qu (曲泽)
+  photo: ze_qu_v1.jpg
+  info: Ph.D. Student (since September 2025)
+  email: cos1moq@tongji.edu.cn
+  topic: Hybrid aerial-aquatic vehicles, autonomous control and embodied intelligence
+  education:
+    - 2025.09 - Present, Ph.D. Student in Intelligent Science and Technology, Tongji University, Shanghai, China
+    - 2021.09 - 2025.06, B.Eng. in Automation, Nanjing University of Aeronautics and Astronautics, Nanjing, China
+
+- name: Jiaxin Fan (范嘉鑫)
+  photo: https://raw.githubusercontent.com/justinfjx/images/main/hexo/image1.png
+  info: Ph.D. Student (since September 2025)
+  email: fanjiaxin@tongji.edu.cn
+  topic: UAV embodied intelligence, motion planning, and control
+  education:
+    - "2025.09 - Present, Ph.D. Student in Intelligent Science and Technology, Tongji University, Shanghai, China"
+    - "(Jointly trained with Shanghai Innovation Institute, Shanghai, China. Co-advised by <a href='https://kelvinfkr.github.io/' target='_blank' rel='noopener noreferrer'>Prof. Kairui Feng</a>)"
+    - "2021.09 - 2025.06, B.Eng. in Automation, Hangzhou Dianzi University, Hangzhou, China"
+
+- name: Shaofan Chen (陈少帆)
+  photo: shaofan_chen_v2.jpg
+  info: M.Eng. Candidate (since September 2024)
+  email: 2432182@tongji.edu.cn
+  topic: Design and Implementation of Simulation System for Hybrid Aerial-Aquatic Cross-Medium Vehicles
+  education:
+    - 2024.09 - Present, M.Eng. Candidate in Electronic Information Engineering, Tongji University, Shanghai, China
+    - 2019.09 - 2023.06, B.Eng. in Automation, Shanghai University of Electric Power, Shanghai, China
+
+- name: Songlin Liu (刘松林)
+  photo: liusonglin.png
+  info: M.Eng. Candidate (since September 2026)
+  email: songlinliu@tongji.edu.cn
+  topic: Computer Vision, Vision Foundation Models, Intelligent Robotics
+  education:
+    - 2026.09 - Present, M.Eng. Candidate in Artificial Intelligence and Automation, Tongji University, Shanghai, China
+    - 2020.09 - 2024.06, B.Eng. in Automation, Dalian University of Technology, Dalian, China
