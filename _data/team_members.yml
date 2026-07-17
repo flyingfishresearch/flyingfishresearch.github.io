@@ -48,7 +48,7 @@
 
 - name: Xiangdan Zhao (赵祥丹)
   photo: xiangdan_zhao_v2.jpg
-  info: Ph.D. Candidate (since September 2023)
+  info: Ph.D. Candidate
   email: zhaoxiangdan@tongji.edu.cn
   topic: Hybrid aerial-aquatic vehicles, autonomous control
   education:
@@ -58,7 +58,7 @@
 
 - name: Chenxiao Wang (王晨晓)
   photo: chenxiao_wang_v1.jpg
-  info: Ph.D. Candidate (since September 2024)
+  info: Ph.D. Candidate
   email: chenxiaowang@tongji.edu.cn
   topic: Underwater localization and mapping, sensor fusion, and autonomous aerial-aquatic vehicles
   education:
@@ -67,7 +67,7 @@
 
 - name: Xinkun Wang (王歆坤)
   photo: xinkun_wang_v1.jpg
-  info: Ph.D. Candidate (since September 2024)
+  info: Ph.D. Candidate
   email: xinkunwang@tongji.edu.cn
   topic: Cross-domain unmanned systems, hybrid aerial-aquatic vehicles, modelling and control
   education:
@@ -76,7 +76,7 @@
 
 - name: Shuchen Zhou (周书臣)
   photo: shuchen_zhou_v2.jpg
-  info: Ph.D. Candidate (since September 2024)
+  info: Ph.D. Candidate
   email: shuchen_zhou@tongji.edu.cn
   topic: Cross-domain unmanned systems, mission planning, and motion planning
   education:
@@ -85,7 +85,7 @@
 
 - name: Ze Qu (曲泽)
   photo: ze_qu_v1.jpg
-  info: Ph.D. Student (since September 2025)
+  info: Ph.D. Student
   email: cos1moq@tongji.edu.cn
   topic: Hybrid aerial-aquatic vehicles, autonomous control and embodied intelligence
   education:
@@ -94,7 +94,7 @@
 
 - name: Jiaxin Fan (范嘉鑫)
   photo: https://raw.githubusercontent.com/justinfjx/images/main/hexo/image1.png
-  info: Ph.D. Student (since September 2025)
+  info: Ph.D. Student
   email: fanjiaxin@tongji.edu.cn
   topic: UAV embodied intelligence, motion planning, and control
   education:
@@ -104,18 +104,18 @@
 
 - name: Shaofan Chen (陈少帆)
   photo: shaofan_chen_v2.jpg
-  info: M.Eng. Candidate (since September 2024)
-  email: 2432182@tongji.edu.cn
+  info: M.Eng. Student
+  email: chenshaofan@tongji.edu.cn
   topic: Design and Implementation of Simulation System for Hybrid Aerial-Aquatic Cross-Medium Vehicles
   education:
-    - 2024.09 - Present, M.Eng. Candidate in Electronic Information Engineering, Tongji University, Shanghai, China
+    - 2024.09 - Present, M.Eng. Student in Electronic Information Engineering, Tongji University, Shanghai, China
     - 2019.09 - 2023.06, B.Eng. in Automation, Shanghai University of Electric Power, Shanghai, China
 
 - name: Songlin Liu (刘松林)
   photo: liusonglin.png
-  info: M.Eng. Candidate (since September 2026)
+  info: M.Eng. Student
   email: songlinliu@tongji.edu.cn
   topic: Computer Vision, Vision Foundation Models, Intelligent Robotics
   education:
-    - 2026.09 - Present, M.Eng. Candidate in Artificial Intelligence and Automation, Tongji University, Shanghai, China
+    - 2026.09 - Present, M.Eng. Student in Artificial Intelligence and Automation, Tongji University, Shanghai, China
     - 2020.09 - 2024.06, B.Eng. in Automation, Dalian University of Technology, Dalian, China
