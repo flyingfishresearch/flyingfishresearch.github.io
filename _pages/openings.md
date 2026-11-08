@@ -1,20 +1,20 @@
 ---
-title: "Tongji Flying Fish Research Lab - Vacancies"
+title: "Tongji Flying Fish Research Lab - Openings"
 layout: textlay
 excerpt: "Openings"
 sitemap: false
 permalink: /openings
 ---
 
-# Open Positions
+# Research Opportunities
 
-We are actively seeking highly motivated and talented Ph.D. and Master’s students to join the **Tongji Flying Fish Research Lab**. If you possess strong hands-on skills and are interested in developing cutting-edge aerial-aquatic robots, we welcome you to apply for the following open positions!
+The **Tongji Flying Fish Research Lab** welcomes applications from highly motivated prospective Ph.D. and master's students with strong practical skills and an interest in developing aerial-aquatic robots. Researchers interested in postdoctoral opportunities are also encouraged to contact us.
 
 ---
 
-## Research Directions
+## Research Areas
 Our research spans basic theory and practical applications in the following areas:
-- **Aerial-aquatic Platform Design**
+- **Aerial-Aquatic Platform Design**
 - **Flight Control and Multi-Agent Cooperative Control**
 - **Sensing and Perception**
 - **Task Planning and Motion Planning**
@@ -25,27 +25,31 @@ Our research spans basic theory and practical applications in the following area
 ## Requirements
 
 **1. Ph.D. students**
-- **Academic background**: Master's degree, or outstanding Bachelor's degree in Automation, Mechanical Engineering, Robotics, Aerospace Engineering, Electrical and Electronic Engineering, or related disciplines. Regular Ph.D. applicants and candidates with recommendations for admission (推免生 / Direct Ph.D. Candidates) are both highly welcome.
-- **Capabilities**: Strong academic interest, hands-on skills in hardware development and programming. Good command of English. Prior experience with UAV or underwater robotics hardware is a plus.
+- **Academic background**: A master's degree in automation, mechanical engineering, robotics, aerospace engineering, electrical and electronic engineering, or a related discipline. Applicants with a bachelor's degree in these fields and an outstanding academic record may also apply. Applications are accepted through the regular admission process and the recommended direct-entry route (推免直博).
+- **Skills and experience**: A strong interest in research, practical skills in hardware development and programming, and a good command of English. Prior experience with UAV or underwater robotics hardware is a plus.
 
-**2. Master’s students**
-- **Academic background**: Bachelor's degree in Automation, Mechanical Engineering, Robotics, Aerospace Engineering, Electrical and Electronic Engineering, or related engineering/science disciplines. Regular applicants and students with recommendations for admission (推免生) are both welcome.
-- **Capabilities**: Highly motivated with keen interest in emerging robotic technology. Hands-on ability and practical programming skills. Prior experience in **robotics competitions** is a plus.
+**2. Master's students**
+- **Academic background**: A bachelor's degree in automation, mechanical engineering, robotics, aerospace engineering, electrical and electronic engineering, or a related science or engineering discipline. We welcome applicants taking the postgraduate entrance examination and applicants recommended for admission without entrance examinations (推免).
+- **Skills and experience**: Strong motivation, a keen interest in emerging robotics technologies, and strong practical and programming skills. Prior experience in **robotics competitions** is a plus.
 
-*Note: For this year's enrollment, we have specific needs and vacancies in the areas of mechanical engineering and power electronics. We plan to recruit 1–2 students with such backgrounds (this is a preference for specific vacancies and does not apply to all candidates).*
+*Note: We plan to recruit 1–2 students with backgrounds in mechanical engineering or power electronics. These backgrounds are preferred for some of our student openings but are not required of all applicants.*
+
+**3. Postdoctoral research opportunities**
+
+Researchers interested in postdoctoral opportunities are welcome to contact Prof. Yu Herng Tan to discuss availability, research fit, and position-specific requirements.
 
 ---
 
-# 招生资讯
+# 招生信息
 
-**同济大学飞鱼研究实验室**（Tongji Flying Fish Research Lab）现正招收具有科研热情的**博士研究生**和**硕士研究生**。如果您具备较强的动手实践能力，并对开发前沿的跨介质机器人（同济飞鱼）充满兴趣，欢迎申请以下职位！
+**同济大学飞鱼研究实验室**（Tongji Flying Fish Research Lab）现招收对科研充满热情的**博士和硕士研究生**。如果您具备较强的动手实践能力，并对跨介质机器人（如同济飞鱼）的研发有浓厚兴趣，欢迎申请加入我们的团队，攻读硕士或博士学位。我们也欢迎就博士后研究机会来信咨询。
 
 ---
 
 ## 研究方向
 我们的研究涵盖以下领域的理论探索与工程应用：
 - **跨介质平台设计（空中/水面/水下机器人）**
-- **飞行控制与多体协同控制**
+- **飞行控制与多智能体协同控制**
 - **传感器与感知技术**
 - **任务规划与运动规划**
 - **具身智能与数字孪生技术**
@@ -55,14 +59,18 @@ Our research spans basic theory and practical applications in the following area
 ## 招生要求
 
 **1. 博士研究生**
-- **专业背景**：拥有自动化、机械工程、机器人学、航空航天、电气与电子工程或相关学科的硕士学位，或极优秀的本科毕业生。普通招考博士生、推免直博生均非常欢迎。
-- **科研能力**：具备浓厚的学术兴趣、出色的硬件开发与编程动手能力。拥有良好的英语水平。有无人机（UAV）或水下机器人硬件开发经验者优先。
+- **专业背景**：已取得自动化、机械工程、机器人学、航空航天、电气与电子工程或相关学科的硕士学位，或为上述领域学业表现优异的本科毕业生。欢迎通过普通招考或推免直博方式申请的学生。
+- **科研能力**：具备浓厚的学术兴趣和较强的硬件开发、编程实践能力，英语水平良好。有无人机（UAV）或水下机器人硬件开发经验者优先。
 
 **2. 硕士研究生**
-- **专业背景**：拥有自动化、机械工程、机器人学、航空航天、电气与电子工程或相关工科、理科学科的学士学位。硕士统考生及推免生均非常欢迎。
-- **科研能力**：自我驱动力强，对探索机器人前沿技术充满热情。具备扎实的实践动手与编程能力。有**机器人竞赛**经验者优先。
+- **专业背景**：已取得自动化、机械工程、机器人学、航空航天、电气与电子工程或相关理工学科的学士学位。欢迎硕士统考申请者及推免申请者。
+- **科研能力**：自我驱动力强，对机器人前沿技术充满热情，具备扎实的动手实践能力和编程能力。有**机器人竞赛**经验者优先。
 
-*说明：针对今年招生，因实验室在机械和电力电子方向有相关科研需求，我们会更倾向于招收 1-2 名在此背景方向的同学（此倾向仅针对特定名额，并非对所有候选人的要求）。*
+*说明：我们计划招收 1–2 名具有机械工程或电力电子专业背景的学生。上述背景仅为部分招生名额的优先考虑条件，并非所有申请者的必备条件。*
+
+**3. 博士后研究机会**
+
+有意开展博士后研究的申请者，欢迎联系陈宇珩老师，咨询岗位情况、研究方向及具体申请条件。
 
 ---
 
@@ -73,11 +81,13 @@ If you are interested in joining our group, please send your application directl
 
 Email: [yhtan@tongji.edu.cn](mailto:yhtan@tongji.edu.cn)
 
-Please include the following materials in your email:  
-请在邮件中附带以下材料：
-1. **Curriculum Vitae (CV) / 个人简历**
-2. **Academic Transcripts / 本科及硕士阶段成绩单**
-3. **Research Statement or Highlights / 简短的研究兴趣说明或代表性学术成果（如有）**
+Student applicants should include the following materials in their email:
 
-*Please use the email subject format:* `[Prospective Student] Master/PhD Application - [Your Name]`  
-*邮件主题格式请使用：* `[申请] 硕士/博士申请 - [您的姓名]`
+研究生申请者请在邮件中附上以下材料：
+1. **Curriculum Vitae (CV) / 个人简历**
+2. **Academic Transcripts (Undergraduate and Graduate, as Applicable) / 本科及硕士阶段（如适用）的成绩单**
+3. **A Brief Statement of Research Interests or Examples of Previous Research / 简短的研究兴趣说明或以往研究成果介绍（如有）**
+
+*For student applications, please use the email subject format:* `[Prospective Student] Master's/Ph.D. Application - [Your Name]`
+
+*研究生申请邮件的主题格式请使用：* `[申请] 硕士/博士申请 - [您的姓名]`

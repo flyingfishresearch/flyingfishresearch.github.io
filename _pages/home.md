@@ -6,8 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-### Vision
-Our vision is to push the boundaries of **cross-medium unmanned systems** (such as the *TJ-FlyingFish* hybrid aerial-aquatic vehicle) by integrating advanced mechanical design, intelligent control, robust planning, multi-modal perception, and cutting-edge artificial intelligence. We aim to enable autonomous agents to operate seamlessly, cooperatively, and safely across complex air, land, and water environments.
+We develop **cross-medium unmanned systems**, such as the TJ-FlyingFish hybrid aerial-aquatic vehicle, by combining advanced mechanical design, intelligent control, robust planning, multimodal perception, and artificial intelligence. Our goal is to enable autonomous systems to operate seamlessly, cooperatively, and safely across air, land, and water.
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
@@ -24,25 +23,25 @@ Our vision is to push the boundaries of **cross-medium unmanned systems** (such 
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
         <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/group_photo.jpg" height="4" alt="Group Photo" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/group_photo.jpg" height="4" alt="Lab group photo" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/group_photo_boat.jpg" height="4" alt="Group Photo on Boat" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/group_photo_boat.jpg" height="4" alt="Lab group photo on a boat" />
         </div>         
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/group_photo_aerial.jpg" height="4" alt="Group Photo from Above" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/group_photo_aerial.jpg" height="4" alt="Lab group photo taken from above" />
         </div>         
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/group_photo_steps.jpg" height="4" alt="Group Photo on Steps" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/group_photo_steps.jpg" height="4" alt="Lab group photo on the steps" />
         </div>         
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/group_photo_srias_v2.jpg" height="4" alt="Group Photo at SRIAS" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/group_photo_srias_v2.jpg" height="4" alt="Lab group photo at SRIAS" />
         </div>         
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/group_photo_beach.jpg" height="4" alt="Group Photo on Beach" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/group_photo_beach.jpg" height="4" alt="Lab group photo at the beach" />
         </div>         
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/group_photo_sofa.jpg" height="4" alt="Group Photo on Sofa" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/group_photo_sofa.jpg" height="4" alt="Lab group photo on a sofa" />
         </div>         
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
@@ -57,21 +56,20 @@ Our vision is to push the boundaries of **cross-medium unmanned systems** (such 
 
 
 ### Research
-Our group conducts cutting-edge, interdisciplinary research at the intersection of robotics, control theory, and artificial intelligence, organized around five core pillars:
-* **Mechanical & Aerohydrodynamics**: Novel structural designs and fluid-dynamic analysis for cross-medium unmanned systems and morphable mechanisms.
-* **Control Theory & Flight Control**: Robust control algorithms for hybrid vehicles, transitioning flight dynamics, and multi-agent coordination.
+We conduct interdisciplinary research at the intersection of robotics, control theory, and artificial intelligence. Our research spans five main areas:
+* **Mechanical Design & Aerohydrodynamics**: Novel structural designs and fluid-dynamic analysis for cross-medium unmanned systems and morphable mechanisms.
+* **Control Theory & Flight Control**: Robust control algorithms for hybrid vehicles, aerial-aquatic transitions, and multi-agent coordination.
 * **Task & Motion Planning**: Optimization-based and learning-driven planning algorithms for safe navigation in cluttered and dynamic environments.
-* **Robotic Perception & Localization**: Multi-modal sensor fusion, visual-inertial SLAM in challenging environments, and advanced underwater vision.
+* **Robotic Perception & Localization**: Multimodal sensor fusion, visual-inertial SLAM in challenging environments, and advanced underwater vision.
 * **Machine Learning & Embodied AI**: Deep reinforcement learning, digital twins, and large language model (LLM) applications for autonomous robotic decision-making.
 
 
 ### About
-We are a lab at the Shanghai Research Institute for Intelligent Autonomous Systems (SRIAS) and the State Key Laboratory of Autonomous Intelligent Systems, Tongji University, Shanghai, China. We cooperate with the Chinese University of Hong Kong (CUHK), Nanjing University of Aeronautics and Astronautics (NUAA), and Beijing Institute of Technology (BIT), providing students with a global research outlook and first-class academic resources.
+Our lab is based at Tongji University in Shanghai, China, and is affiliated with the Shanghai Research Institute for Intelligent Autonomous Systems (SRIAS) and the State Key Laboratory of Autonomous Intelligent Systems. We collaborate with the Chinese University of Hong Kong (CUHK), Nanjing University of Aeronautics and Astronautics (NUAA), and Beijing Institute of Technology (BIT). These collaborations broaden our students' research perspectives and connect them with expertise and resources at our partner institutions.
 
-**We are looking for new PhD students, Postdocs, and Master's students to join the team** [(more info)]({{ site.url }}{{ site.baseurl }}/openings) **!**
+**We welcome applications from prospective Ph.D. and master's students and inquiries about postdoctoral research opportunities.** [Learn more]({{ site.url }}{{ site.baseurl }}/openings).
 
 
 <div class="logos-block" markdown="0">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/all.png" alt="Affiliations &amp; Collaborations" style="width: 95%; height: auto; display: block; margin: 0 auto;" />
 </div>
-

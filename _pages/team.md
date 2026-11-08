@@ -51,7 +51,7 @@ permalink: /team/
   {% endif %}
 
   {% if member.topic %}
-  <p style="font-size:.8em; margin-bottom: 5px;"><i class="fa fa-book" style="width: 15px; text-align: center;"></i> <strong>Interests:</strong> {{ member.topic }}</p>
+  <p style="font-size:.8em; margin-bottom: 5px;"><i class="fa fa-book" style="width: 15px; text-align: center;"></i> <strong>Research interests:</strong> {{ member.topic }}</p>
   {% endif %}
 
   {% if member.email or member.website %}
@@ -91,7 +91,7 @@ permalink: /team/
   {% endif %}
 
   {% if member.topic %}
-  <p style="font-size:.8em; margin-bottom: 5px;"><i class="fa fa-book" style="width: 15px; text-align: center;"></i> <strong>Interests:</strong> {{ member.topic }}</p>
+  <p style="font-size:.8em; margin-bottom: 5px;"><i class="fa fa-book" style="width: 15px; text-align: center;"></i> <strong>Research interests:</strong> {{ member.topic }}</p>
   {% endif %}
 
   {% if member.email or member.website %}
@@ -131,7 +131,7 @@ permalink: /team/
   {% endif %}
 
   {% if member.topic %}
-  <p style="font-size:.8em; margin-bottom: 5px;"><i class="fa fa-book" style="width: 15px; text-align: center;"></i> <strong>Interests:</strong> {{ member.topic }}</p>
+  <p style="font-size:.8em; margin-bottom: 5px;"><i class="fa fa-book" style="width: 15px; text-align: center;"></i> <strong>Research interests:</strong> {{ member.topic }}</p>
   {% endif %}
 
   {% if member.email or member.website %}
@@ -152,4 +152,4 @@ permalink: /team/
 {% endfor %}
 
 
-We are looking for new PhD students, Postdocs, and Master students to join the team [(see OPENINGS)]({{ site.url }}{{ site.baseurl }}/openings) !
+We welcome applications from prospective Ph.D. and master's students and inquiries about postdoctoral research opportunities. [See openings]({{ site.url }}{{ site.baseurl }}/openings).

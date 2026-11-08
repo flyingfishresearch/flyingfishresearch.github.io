@@ -19,7 +19,7 @@ body {
 	color: #2b303a;
 	background-color: #ffffff;
 	-webkit-font-smoothing: antialiased;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 1.6;
 }
 
@@ -36,7 +36,6 @@ figcaption {
 
 p.byline {
 	text-align: center;
-	font-size: 18px;
 	line-height: 36px;
 	margin-top: -24px;
 	margin-bottom: 48px;
@@ -171,13 +170,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   letter-spacing: -0.03em;
   color: #1a1e26 !important;
-  font-size: 18px;
 }
 
 .navbar-default .navbar-nav > li > a {
   color: #4a5568 !important;
   font-weight: 500;
-  font-size: 14px;
   padding: 24px 15px;
   transition: color 0.2s ease;
 }
@@ -216,7 +213,6 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid #1a1e26;
   border-radius: 6px;
   padding: 8px 16px;
-  font-size: 13px;
   font-weight: 500;
   color: #ffffff;
   transition: all 0.2s ease;
@@ -359,7 +355,6 @@ hr {
   background: transparent !important;
   border: none !important;
   color: #64748b !important; /* Slate 500 */
-  font-size: 11px !important;
   line-height: 1.4 !important;
   padding: 0 !important;
 }
@@ -441,7 +436,6 @@ hr {
 }
 
 .news-date {
-  font-size: 0.85em;
   font-weight: 700;
   color: #64748b;
   display: block;
@@ -449,7 +443,6 @@ hr {
 }
 
 .news-headline {
-  font-size: 0.95em;
   color: #334155;
   line-height: 1.5;
 }
@@ -543,8 +536,8 @@ hr {
 
 /* =============================================================
  * Unified typography: the whole site uses only TWO font sizes.
- *   - Body size  : 18px  (normal text, nav, footer, captions, etc.)
- *   - Heading size: 26px (all h1–h6 / headings)
+ *   - Body size   : 16px (normal text, footer, captions, buttons, etc.)
+ *   - Heading size: 18px (all h1–h6, team names, brand, and nav links)
  * !important is used so these win over Bootstrap defaults and the
  * inline style="font-size:…" attributes sprinkled in the templates.
  * Icon elements (font-awesome <i>, glyphicon <span>) are deliberately
@@ -554,20 +547,30 @@ hr {
 /* --- Body size --- */
 body,
 p, p.byline, li, ol, ul, dl, dt, dd, table, td, th,
-a, small, .small, .lead, blockquote, figcaption, .caption,
-.navbar-default .navbar-brand, .navbar-brand, .navbar-brand span,
-.navbar-default .navbar-nav > li > a,
+a, small, .small, .lead, blockquote, figcaption, .caption, address,
+button, input, select, textarea, label, legend,
+code, kbd, pre, samp, sub, sup,
 .button, .button.black, .btn,
 .panel-footer, .panel-footer p, .panel-footer a, .panel-footer div,
 .news-date, .news-headline, .news-headline p {
-  font-size: 18px !important;
+  font-size: 16px !important;
 }
 
 /* --- Heading size --- */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6,
-.publications h1, .publications h2, .publications h2 span {
-  font-size: 26px !important;
+.publications h1, .publications h2, .publications h2 span,
+.navbar-default .navbar-brand, .navbar-brand, .navbar-brand span,
+.navbar-default .navbar-nav > li > a {
+  font-size: 18px !important;
+}
+
+/* Text inside headings keeps the heading size, including linked headings. */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  a, small, .small {
+    font-size: inherit !important;
+  }
 }
 
 /* Keep heading classes on the Ubuntu/宋体 stack too */
@@ -661,9 +664,8 @@ code.language-plaintext {
   border: 1px solid #bae6fd;
 }
 
-/* Team member names */
+/* Team member names keep their original capitalization. */
 #gridid h4 {
-  font-size: 22px !important;
   text-transform: none !important;
 }
 
@@ -691,25 +693,17 @@ img:hover,
 }
 
 /* "Personal Website" buttons on the Team page: light-blue chip with
-   Jekyll-blue text, a little smaller than body text. */
+   Jekyll-blue text at the body font size. */
 .button.black {
   background-color: #e0f2fe !important;
   border: 1px solid #bae6fd !important;
   color: #0284c7 !important;
-  font-size: 15px !important;
 }
 .button.black:hover {
   background-color: #bae6fd !important;
   border-color: #7dd3fc !important;
   color: #0369a1 !important;
   box-shadow: none !important;
-}
-
-/* Navbar brand (lab name, top-left) at the same size as the nav links. */
-.navbar-default .navbar-brand,
-.navbar-brand,
-.navbar-brand span {
-  font-size: 18px !important;
 }
 
 /* Uniform frame (corner radius + shadow) on every News image, overriding
