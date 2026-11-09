@@ -52,7 +52,7 @@ firstp {
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
-  max-width: 1300px; 
+  max-width: 1200px;
 }
 
 .main-container {
@@ -458,6 +458,10 @@ hr {
   border-radius: 8px;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.02);
   margin-top: 8px;
+  max-width: 100%;
+  /* Override inline minimum widths so photos fit the narrow News column. */
+  min-width: 0 !important;
+  flex: 1 1 280px;
 }
 
 /* News scroll container for homepage */
@@ -536,8 +540,8 @@ hr {
 
 /* =============================================================
  * Unified typography: the whole site uses only TWO font sizes.
- *   - Body size   : 16px (normal text, footer, captions, buttons, etc.)
- *   - Heading size: 18px (all h1–h6, team names, brand, and nav links)
+ *   - Body size   : 16px (normal text, footer, captions, buttons, brand, nav links, etc.)
+ *   - Heading size: 18px (all h1–h6 and team names)
  * !important is used so these win over Bootstrap defaults and the
  * inline style="font-size:…" attributes sprinkled in the templates.
  * Icon elements (font-awesome <i>, glyphicon <span>) are deliberately
@@ -556,12 +560,16 @@ code, kbd, pre, samp, sub, sup,
   font-size: 16px !important;
 }
 
+/* --- Navigation size --- */
+.navbar-default .navbar-brand, .navbar-brand, .navbar-brand span,
+.navbar-default .navbar-nav > li > a {
+  font-size: 16px !important;
+}
+
 /* --- Heading size --- */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6,
-.publications h1, .publications h2, .publications h2 span,
-.navbar-default .navbar-brand, .navbar-brand, .navbar-brand span,
-.navbar-default .navbar-nav > li > a {
+.publications h1, .publications h2, .publications h2 span {
   font-size: 18px !important;
 }
 

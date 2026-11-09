@@ -54,9 +54,7 @@ permalink: /team/
   <p style="font-size:.8em; margin-bottom: 5px;"><i class="fa fa-book" style="width: 15px; text-align: center;"></i> <strong>Research interests:</strong> {{ member.topic }}</p>
   {% endif %}
 
-  {% if member.email or member.website %}
-  <p style="font-size:.8em; margin-bottom: 5px;">{% if member.email %}<i class="fa fa-envelope" style="width: 15px; text-align: center;"></i> <a href="mailto:{{ member.email }}">{{ member.email }}</a>{% endif %}{% if member.website %}{% if member.email %}<span style="display:inline-block; width: 22px;"></span>{% endif %}<i class="fa fa-link" style="width: 15px; text-align: center;"></i> <a href="{{ member.website }}" target="_blank">Website</a>{% endif %}</p>
-  {% endif %}
+  {% include member_links.html member=member %}
 
   {% if member.education %}
 {% for edu in member.education %}
@@ -94,9 +92,7 @@ permalink: /team/
   <p style="font-size:.8em; margin-bottom: 5px;"><i class="fa fa-book" style="width: 15px; text-align: center;"></i> <strong>Research interests:</strong> {{ member.topic }}</p>
   {% endif %}
 
-  {% if member.email or member.website %}
-  <p style="font-size:.8em; margin-bottom: 5px;">{% if member.email %}<i class="fa fa-envelope" style="width: 15px; text-align: center;"></i> <a href="mailto:{{ member.email }}">{{ member.email }}</a>{% endif %}{% if member.website %}{% if member.email %}<span style="display:inline-block; width: 22px;"></span>{% endif %}<i class="fa fa-link" style="width: 15px; text-align: center;"></i> <a href="{{ member.website }}" target="_blank">Website</a>{% endif %}</p>
-  {% endif %}
+  {% include member_links.html member=member %}
 
   {% if member.education %}
 {% for edu in member.education %}
@@ -134,9 +130,7 @@ permalink: /team/
   <p style="font-size:.8em; margin-bottom: 5px;"><i class="fa fa-book" style="width: 15px; text-align: center;"></i> <strong>Research interests:</strong> {{ member.topic }}</p>
   {% endif %}
 
-  {% if member.email or member.website %}
-  <p style="font-size:.8em; margin-bottom: 5px;">{% if member.email %}<i class="fa fa-envelope" style="width: 15px; text-align: center;"></i> <a href="mailto:{{ member.email }}">{{ member.email }}</a>{% endif %}{% if member.website %}{% if member.email %}<span style="display:inline-block; width: 22px;"></span>{% endif %}<i class="fa fa-link" style="width: 15px; text-align: center;"></i> <a href="{{ member.website }}" target="_blank">Website</a>{% endif %}</p>
-  {% endif %}
+  {% include member_links.html member=member %}
 
   {% if member.education %}
 {% for edu in member.education %}
@@ -152,4 +146,4 @@ permalink: /team/
 {% endfor %}
 
 
-We welcome applications from prospective Ph.D. and master's students and inquiries about postdoctoral research opportunities. [See openings]({{ site.url }}{{ site.baseurl }}/openings).
+We welcome applications from prospective Ph.D. and master's students, and inquiries about postdoctoral research opportunities. [Learn more.]({{ site.url }}{{ site.baseurl }}/openings)
