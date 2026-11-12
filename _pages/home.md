@@ -57,17 +57,17 @@ We develop **cross-medium unmanned systems**, such as the TJ-FlyingFish hybrid a
 
 ### Research
 We conduct research at the intersection of robotics, control theory, and artificial intelligence. Our research spans five main areas:
-* **Mechanical Design & Aerohydrodynamics**: Novel structural designs and fluid-dynamic analysis for cross-medium unmanned systems and morphable mechanisms.
-* **Control Theory & Flight Control**: Robust control algorithms for hybrid vehicles, aerial-aquatic transitions, and multi-agent coordination.
-* **Robotic Perception & Localization**: Multimodal sensor fusion, acoustic-inertial SLAM in challenging environments, and advanced underwater vision.
-* **Task & Motion Planning**: Optimization-based and learning-driven planning algorithms for safe navigation in cluttered and dynamic environments.
+* **Mechanical Design & Hydrodynamics**: Novel structural designs and fluid-dynamic analysis for cross-medium unmanned systems and morphable mechanisms.
+* **Control Theory & Flight Control**: Robust control algorithms for hybrid aerial-aquatic vehicles, aerial-aquatic transitions, and multi-agent coordination.
+* **Sensing & Perception**: Multimodal sensor fusion, acoustic-inertial SLAM in challenging environments, and underwater computer vision.
+* **Task & Motion Planning**: Optimization-based and learning-based planning algorithms for safe navigation in cluttered and dynamic environments.
 * **Machine Learning & Embodied AI**: Deep reinforcement learning, digital twins, and large language model (LLM) applications for autonomous robotic decision-making.
 
 
 ### About
 Our lab is based at Tongji University, Shanghai, China, and is affiliated with the Shanghai Research Institute for Intelligent Autonomous Systems (SRIAS) and the State Key Laboratory of Autonomous Intelligent Systems. We collaborate with the Chinese University of Hong Kong (CUHK), Nanjing University of Aeronautics and Astronautics (NUAA), and Beijing Institute of Technology (BIT).
 
-We welcome applications from prospective Ph.D. and master's students, and inquiries about postdoctoral research opportunities. [Learn more.]({{ site.url }}{{ site.baseurl }}/openings)
+We welcome applications from prospective Ph.D. and master's students and inquiries about postdoctoral research opportunities. [Learn more.]({{ site.url }}{{ site.baseurl }}/openings)
 
 
 <div class="logos-block" markdown="0">

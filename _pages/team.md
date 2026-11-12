@@ -146,4 +146,4 @@ permalink: /team/
 {% endfor %}
 
 
-We welcome applications from prospective Ph.D. and master's students, and inquiries about postdoctoral research opportunities. [Learn more.]({{ site.url }}{{ site.baseurl }}/openings)
+We welcome applications from prospective Ph.D. and master's students and inquiries about postdoctoral research opportunities. [Learn more.]({{ site.url }}{{ site.baseurl }}/openings)

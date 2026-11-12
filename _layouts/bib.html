@@ -23,7 +23,7 @@
           {% if entry.url %}<a href="{{ entry.url }}" target="_blank"><button class="btn-pdf">PDF</button></a> {% endif %}
 
           {% if entry.abstract %} 
-            <a data-toggle="collapse" href="#{{key}}-abstract" class="btn-abstract" role="button">ABS</a>
+            <a data-toggle="collapse" href="#{{key}}-abstract" class="btn-abstract" role="button">Abstract</a>
           {% endif %}
 
           {% if entry.doi %}<a href="http://dx.doi.org/{{ entry.doi }}" target="_blank"><button class="btn-doi">DOI</button></a> {% endif %}
@@ -32,12 +32,12 @@
 
           
           {% if entry.video %} 
-            <a href="{{ entry.video }}" class="btn-video" role="button">VID</a>
+            <a href="{{ entry.video }}" class="btn-video" role="button">Video</a>
           {% endif %}
 
 
           {% if bib_show %} 
-            <a data-toggle="collapse" href="#{{key}}-bib" class="btn-bib" role="button">BIB</a>
+            <a data-toggle="collapse" href="#{{key}}-bib" class="btn-bib" role="button">BibTeX</a>
           {% endif %}
 
 

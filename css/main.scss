@@ -695,9 +695,10 @@ img:hover,
   margin-right: 6px;
 }
 
-/* Research page video titles: keep normal (Title) case, not ALL CAPS */
+/* Research page video titles: normal weight and original capitalization. */
 .video-title {
   text-transform: none !important;
+  font-weight: 400;
 }
 
 /* "Personal Website" buttons on the Team page: light-blue chip with

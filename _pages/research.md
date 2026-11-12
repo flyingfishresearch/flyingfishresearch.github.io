@@ -11,9 +11,7 @@ permalink: /research/
 
 Our research lies at the intersection of advanced mechanical design, dynamics and control, multimodal perception, and embodied artificial intelligence, with a focus on cross-domain unmanned systems operating across air, land, and water.
 
-We develop theories and methods that enable robotic systems to operate autonomously, adaptively, and safely in complex, changing, and unstructured environments. By combining system dynamics models with machine learning algorithms, we address challenges in aerial-aquatic transitions, robust flight control, multimodal SLAM, and task and motion planning.
-
-The videos below showcase some of our recent research, followed by an overview of our experimental facilities and equipment.
+We develop theories and methods that enable robotic systems to operate autonomously, adaptively, and safely in complex, dynamic, and unstructured environments. By combining models of robot dynamics with machine learning algorithms, we address challenges in aerial-aquatic transitions, robust flight control, multimodal SLAM, and task and motion planning.
 
 <div style="clear: both;"></div>
 
@@ -37,7 +35,7 @@ The videos below showcase some of our recent research, followed by an overview o
   </video>
 </div>
 
-<h3 class="video-title">TJ-FlyingFish I Demonstration</h3>
+<h3 class="video-title">TJ-FlyingFish I Demonstration in Hong Kong</h3>
 <div style="text-align: center; margin-bottom: 25px;">
   <video controls width="100%" style="max-width: 720px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
     <source src="{{ site.url }}{{ site.baseurl }}/video/tongji_flying_fish_demo_3.mp4" type="video/mp4">
@@ -45,7 +43,7 @@ The videos below showcase some of our recent research, followed by an overview o
   </video>
 </div>
 
-<h3 class="video-title">TJ-FlyingFish I Demonstration</h3>
+<h3 class="video-title">TJ-FlyingFish I Demonstration in Shanghai</h3>
 <div style="text-align: center; margin-bottom: 25px;">
   <video controls width="100%" style="max-width: 720px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
     <source src="{{ site.url }}{{ site.baseurl }}/video/tongji_flying_fish_demo_4.mp4" type="video/mp4">
@@ -59,16 +57,11 @@ The videos below showcase some of our recent research, followed by an overview o
 
 Our facilities and equipment support research in aerial-aquatic and marine robotics and include:
 
-- **Multibeam Imaging Sonars**
-- **Scanning Sonars**
-- **Ultra-Short Baseline (USBL) Positioning Systems**
-- **Short Baseline (SBL) Positioning System**
-- **Doppler Velocity Logs (DVLs)**
-- **Acoustic Communication Modems**
-- **Underwater GPS**
-- **Underwater Motion Capture System & Indoor Experimental Tank**
-- **Outdoor River Testing Site**
-
-<div style="text-align: center; margin-top: 20px; margin-bottom: 30px;">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/research_facilities.png" alt="Experimental facilities and research equipment" class="no-hover" style="max-width: 100%; max-height: 480px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" />
-</div>
+- Multibeam imaging sonars
+- Scanning sonars
+- Ultra-short baseline (USBL) positioning systems
+- Underwater GPS
+- Doppler velocity logs (DVLs)
+- Underwater acoustic modems
+- Underwater motion capture system
+- Indoor water tank
